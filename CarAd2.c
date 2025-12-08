@@ -94,7 +94,7 @@ int main(void)
     printf("\n\nFaites votre choix : ");
     scanf("%d", &option);
 
-    switch (option)
+  //  switch (option)
     {
     case 1:
         ajoutercontact(contact, &totalcontacts);
